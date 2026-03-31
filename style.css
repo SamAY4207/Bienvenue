@@ -1,0 +1,122 @@
+h1 {
+    color: #8100D1;
+    font: Kermit Extrabold, normal;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: #B500B2;
+    font: glider, normal;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+h3 {
+    color: #FF52A0;
+    font: glider, normal;
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+li {
+    color: #FFA47F;
+    font: glider, normal;
+    text-align: center;
+    border-color: 091413;
+    
+}
+
+p {
+    color: #FF9AEE;
+    font: glider, normal;
+    text-align: center;
+    font-size: 19px;
+    border-color: 091413;
+    border-width: 5px;
+    
+}
+
+.plum {
+    color: #DDA0DD;
+    font: glider, normal;
+    text-align: center;
+    
+}
+
+.background-presentation {
+    background-image: url('asset/SG.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+a {
+    color: #FF9AEE;
+    font: glider, normal;
+    text-align: center;
+    font-size: 19px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.backpink {
+    background-color: rgba(255, 192, 203, 0.3);
+}
+.suppuce {list-style-type: none;} 
+li {list-style-type: none;}
+
+.background-anim {
+    background-image: url('asset/Anim/bg/AHO-GIRL.jpg') ; 
+    width: 100%; 
+    height: 600px;   
+    background-position: center;
+}
+.background-bouffe {
+    background-image: url('asset/Bouffe/Miam.jpg') ; 
+    width: 100%; 
+    height: 600px;   
+    background-position: center;
+}
+.background-grand {
+    background-image: url('asset/Anim/bg/Grand.jpg') ; 
+    width: 100%; 
+    height: 600px;   
+    background-position: center;
+}
+.background-Tatami {
+    background-image: url('asset/Anim/bg/Ozu.jpg.webp') ; 
+    width: 100%; 
+    height: 600px;   
+    background-position: center;
+}
+.background-aho {
+    background-image: url('asset/Anim/bg/AHO.jpg') ; 
+    width: 100%; 
+    height: 600px;   
+    background-position: center;
+}
+.background-excel {
+    background-image: url('asset/Anim/bg/Excel.jpg') ; 
+    width: 100%; 
+    height: 600px;   
+    background-position: center;
+}
+.background-gnosia {
+    background-image: url('asset/Anim/bg/gnosia.webp') ; 
+    width: 100%; 
+    height: 600px;   
+    background-position: center;
+}
+
+
