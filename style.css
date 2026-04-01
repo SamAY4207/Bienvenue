@@ -47,7 +47,7 @@ p {
 }
 
 .background-presentation {
-    background-image: url('asset/SG.png');
+    background-image: url("asset/SG.png");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -78,45 +78,76 @@ li {list-style-type: none;}
 
 .background-anim {
     background-image: url('asset/Anim/bg/AHO-GIRL.jpg') ; 
+    background-size: cover;
     width: 100%; 
     height: 600px;   
     background-position: center;
+    background-attachment: fixed;
 }
 .background-bouffe {
     background-image: url('asset/Bouffe/Miam.jpg') ; 
+    background-size: cover;
     width: 100%; 
     height: 600px;   
     background-position: center;
+    background-attachment: fixed;
 }
 .background-grand {
     background-image: url('asset/Anim/bg/Grand.jpg') ; 
+    background-size: cover;
     width: 100%; 
     height: 600px;   
     background-position: center;
+    background-attachment: fixed;
 }
 .background-Tatami {
     background-image: url('asset/Anim/bg/Ozu.jpg.webp') ; 
+    background-size: cover;
     width: 100%; 
     height: 600px;   
     background-position: center;
+    background-attachment: fixed;
 }
 .background-aho {
     background-image: url('asset/Anim/bg/AHO.jpg') ; 
+    background-size: cover;
     width: 100%; 
     height: 600px;   
     background-position: center;
+    background-attachment: fixed;
 }
 .background-excel {
     background-image: url('asset/Anim/bg/Excel.jpg') ; 
+    background-size: cover;
     width: 100%; 
     height: 600px;   
     background-position: center;
+    background-attachment: fixed;
 }
 .background-gnosia {
     background-image: url('asset/Anim/bg/gnosia.webp') ; 
+    background-size: cover;
     width: 100%; 
     height: 600px;   
     background-position: center;
+    background-attachment: fixed;
 }
 
+.background-JV {
+    background-image: url('asset/JV/bg/JV.png') ; 
+    background-size: cover;
+    width: 100%; 
+    height: 600px;   
+    background-position: center;
+    background-attachment: fixed;
+}
 
+.background-mod {
+    background-image: url('asset/JV/bg/mod.png') ; 
+    background-size: 50% ;
+    width: 100%; 
+    height: 500px;   
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
