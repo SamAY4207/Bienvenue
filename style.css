@@ -170,6 +170,15 @@ li {
     background-attachment: fixed;
 }
 
+.background-iruma {
+    background-image: url('asset/Anim/bg/Iruma.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .background-JV {
     background-image: url('asset/JV/bg/JV.png');
     background-size: cover;
@@ -203,8 +212,9 @@ li {
    background-image: url('asset/Anim/TatamiGalaxy.png');
     background-size: 50%;
     width: 100%;
-    height: 500x;
+    height: 500px;
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat; 
 }
 .grand{
@@ -213,6 +223,7 @@ li {
     width: 100%;
     height: 500px;
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 .aho{
@@ -221,6 +232,7 @@ li {
     width: 100%;
     height: 500px;
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat; 
 }
 .excel{
@@ -229,6 +241,7 @@ li {
     width: 100%;
     height: 500px;
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat; 
 }
 .gnosia{
@@ -237,6 +250,16 @@ li {
     width: 100%;
     height: 500px;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.iruma{
+   background-image: url('asset/Anim/IrumaKun.jpeg');
+    background-size: 50%;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
