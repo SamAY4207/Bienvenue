@@ -35,9 +35,7 @@ h3 {
     font-family: Wellfleet, normal;
     text-align: center;
     font-size: 35px;
-
 }
-
 h3 a {
     color: #FF52A0;
     font-family: Wellfleet, normal;
@@ -45,7 +43,20 @@ h3 a {
     font-size: 35px;
 
 }
+h4 {
+    color: #FFA47F;
+    font-family: Wellfleet, normal;
+    text-align: center;
+    font-size: 25px;
 
+}
+h4 a {
+    color: #FFA47F;
+    font-family: Wellfleet, normal;
+    text-align: center;
+    font-size: 25px;
+
+}
 li {
     color: #FFA47F;
     font-family: Wellfleet, normal;
