@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Passero+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Passero+One&family=Wellfleet&display=swap');
 
+* {
+    margin: 0 px 5 px;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
 h1 {
     color: #8100D1;
     font-family: Passero One, normal;
@@ -116,6 +122,59 @@ a {
 
 li {
     list-style-type: none;
+}
+.backfont {
+    
+    background-color:#000000a9;
+    border: #000000a2;
+    width: fit-content;
+    margin: 0 auto 15px auto;
+    padding: 0px 15px;
+    border-radius: 4px;  
+}
+
+.btn {
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    padding: 10px 10px;
+    margin: auto 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* FLEEEEX */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+
+.gap-8{
+    gap: 8px;
+}
+
+
+.card{
+    width: 30%;
+    padding: 8px;
+}
+
+.card2{
+    width: 22%;
+    padding: 8px;
 }
 
 .background-musique {
@@ -243,11 +302,20 @@ li {
 
 .background-JV {
     background-image: url('asset/JV/bg/JV.png');
-    background-size: cover;
+    background-size: center;
     width: 100%;
     height: 600px;
     background-position: center;
     background-attachment: fixed;
+}
+
+.background-works {
+    background-image: url('asset/JV/bg/works.png');
+    background-size: 50%;
+    width: 100%;
+    background-position: 70% center;
+    background-repeat: no-repeat;
+
 }
 
 .background-mod {
@@ -260,15 +328,7 @@ li {
 
 }
 
-.background-works {
-    background-image: url('asset/JV/bg/works.png');
-    background-size: 50%;
-    width: 100%;
-    height: 500px;
-    background-position: 70% center;
-    background-repeat: no-repeat;
 
-}
 
 .tatami{
    background-image: url('asset/Anim/TatamiGalaxy.png');
@@ -331,12 +391,3 @@ li {
 }
 
 
-.backfont {
-    
-    background-color:#000000a9;
-    border: #000000a2;
-    width: fit-content;
-    margin: 0 auto 15px auto;
-    padding: 0px 15px;
-    border-radius: 4px;  
-}
