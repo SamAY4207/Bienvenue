@@ -12,7 +12,9 @@ h1 {
     color: #8100D1;
     font-family: Jaro, normal;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);  /* Contour en rouge */
+    text-stroke: 10px rgb(0, 0, 0);  /* Contour en rouge */
 }
 h1 a {
     color: #8100D1;
@@ -25,14 +27,14 @@ h2 {
     color: #B500B2;
     font-family: Passero one, normal;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 
 }
 h2 a {
     color: #B500B2;
     font-family: Passero One, normal;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 
 }
 
@@ -40,27 +42,27 @@ h3 {
     color: #FF52A0;
     font-family: Wellfleet, normal;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
 }
 h3 a {
     color: #FF52A0;
     font-family: Wellfleet, normal;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
 
 }
 h4 {
     color: #FFA47F;
     font-family: Wellfleet, normal;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 h4 a {
     color: #FFA47F;
     font-family: Wellfleet, normal;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 li {
@@ -75,7 +77,16 @@ p {
     color: #FF9AEE;
     font-family: Wellfleet, normal;
     text-justify: inter-word;
-    font-size: 20px;
+    font-size: 25px;
+    line-height: 200%;
+
+}
+
+p a {
+    color: #FF9AEE;
+    font-family: Wellfleet, normal;
+    text-justify: inter-word;
+    font-size: 25px;
     line-height: 200%;
 
 }
@@ -197,7 +208,11 @@ li {
     margin: 0 auto;      /* On centre si besoin */
 }
 
-
+.backbord-purple{
+    background-color: #8100d146;
+    corner-shape: superellipse(2);
+    border-radius: 100px;
+}
 
 .flex-start{
     align-items: flex-start;
@@ -352,7 +367,14 @@ li {
 
 }
 
+.background-animation {
+    background-image: url('asset/animation-bg.png');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
 
+
+}
 
 .tatami{
    background-image: url('asset/Anim/TatamiGalaxy.png');
@@ -414,4 +436,6 @@ li {
     background-repeat: no-repeat;
 }
 
-
+.p12{
+    padding: 12px;
+}
