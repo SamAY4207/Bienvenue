@@ -163,22 +163,34 @@ li {
     
 }
 
-.space-between{
-    justify-content: space-between;
-}
-
 .align-center {
     align-items: center;
+}
+
+.align-start{
+    align-items: start;
 }
 
 .justify-center {
     justify-content: center;
 }
 
+.justify-start{
+    justify-content: start;
+}
+
+.space-between{
+    justify-content: space-between;
+}
 
 .gap-8{
     gap: 8px;
 }
+
+.gap-24{
+    gap: 24px;
+}
+
 
 
 .card{
@@ -208,15 +220,63 @@ li {
     margin: 0 auto;      /* On centre si besoin */
 }
 
+.p12{
+    padding: 12px;
+}
+
+/*FLEX GEMINI */
+
+/* La ligne qui contient les deux gros groupes (Infos et Parcours) */
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Chaque groupe (Infos / Parcours) prend un peu moins de la moitié */
+.card-group {
+    width: 48%;
+}
+
+/* C'est ici que la magie opère pour l'alignement interne */
+.grid-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer à la ligne automatiquement */
+    justify-content: space-between;
+}
+
+/* Chaque petite info prend 48% de la largeur du groupe (donc 2 par ligne) */
+.card-mini {
+    width: 48%; 
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Effet translucide comme sur ton screen */
+    box-sizing: border-box; /* Important pour que le padding ne casse pas le % */
+}
 .backbord-purple{
     background-color: #8100d146;
     corner-shape: superellipse(2);
     border-radius: 100px;
 }
 
-.flex-start{
-    align-items: flex-start;
+/* On stabilise l'icône dans un carré fixe */
+.icon-wrapper {
+    height: 100px; /* Force la même hauteur pour toutes les icônes */
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
+
+.icon-wrapper img {
+    max-height: 100%;
+    width: auto;
+}
+
+
+/* Arrières plans */
 
 .background-musique {
     background-image: url('asset/music.jpg');
@@ -436,6 +496,4 @@ li {
     background-repeat: no-repeat;
 }
 
-.p12{
-    padding: 12px;
-}
+
