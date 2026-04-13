@@ -91,6 +91,12 @@ p a {
 
 }
 
+a {
+    color: #FF9AEE;
+    font: glider, normal;
+    text-align: center;
+    font-size: 25px;
+}
 .plum {
     color: #DDA0DD;
     font-family: Wellfleet, normal;
@@ -111,12 +117,7 @@ img {
     width: 100px;
 }
 
-a {
-    color: #FF9AEE;
-    font: glider, normal;
-    text-align: center;
-    font-size: 19px;
-}
+
 
 .bold {
     font-weight: 600;
@@ -156,6 +157,10 @@ li {
 .text-justify{
     text-justify: auto;
 }
+
+.text-center{
+    text-align: center;
+}
 /* FLEEEEX */
 .flex{
     display: flex;
@@ -183,12 +188,16 @@ li {
     justify-content: space-between;
 }
 
-.gap-8{
+.gap-8 {
     gap: 8px;
 }
 
-.gap-24{
-    gap: 24px;
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-32 {
+    gap: 32px;
 }
 
 
@@ -209,7 +218,7 @@ li {
 }
 .card4{
     width: 19%;
-    padding: 5px;
+    padding: 8px;
     
 }
 
@@ -223,6 +232,173 @@ li {
 .p12{
     padding: 12px;
 }
+
+/*PADDING MARGIN*/
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mt-32{
+    margin-top: 32px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.mt-64{
+    margin-top: 64px;
+}
+
+.mb-64{
+    margin-bottom: 64px;
+}
+
+.mt-128{
+    margin-top: 128px;
+}
+
+.mb-128{
+    margin-bottom: 128px;
+}
+
+.mt-256{
+    margin-top: 256px;
+}
+
+.mb-256{
+    margin-bottom: 256px;
+}
+
+.mt-384{
+    margin-top: 384px;
+}
+
+.mb-384{
+    margin-bottom: 384px;
+}
+
+
+.mt-512{
+    margin-bottom: 512px;
+}
+
+.mb-512{
+    margin-bottom: 512px;
+}
+.mt-128{
+    margin-top: 128px;
+}
+
+.mb-1024{
+    margin-bottom: 1024px;
+}
+.mt-1024{
+    margin-top: 1024px;
+}
+
+.pb-16{
+    padding-top: 16px;
+}
+
+.pb-16{
+    padding-bottom: 16px;
+}
+
+.pt-32{
+    padding-top: 32px;
+}
+
+.pb-32{
+    padding-bottom: 32px;
+}
+
+.pt-64{
+    padding-top: 64px;
+}
+
+.pb-64{
+    padding-bottom: 64px;
+}
+
+.pt-128{
+    padding-top: 128px;
+}
+
+.pb-128{
+    padding-bottom: 128px;
+}
+
+.m-16{
+    margin: 16px;
+}
+
+/*CONTAINER */
+
+.container-1200{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-1480{
+    max-width: 1480px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* DIMMENSIONS */
+
+.w100{
+    width: 100%;
+}
+
+.w70{
+    width: 70%;
+}
+
+
+.w50{
+    width: 50%;
+}
+
+.w48{
+    width: 48%;
+}
+
+.w40{
+    width: 40%;
+}
+.w30{
+    width: 30%;
+}
+
+.w25{
+    width: 25%;
+}
+
+.w20{
+    width: 20%;
+}
+
+.w10{
+    width: 10%;
+}
+
 
 /*FLEX GEMINI */
 
@@ -496,4 +672,44 @@ li {
     background-repeat: no-repeat;
 }
 
+.dessins{
+    width: 100%;
+    display: inline-flex;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.dessins1{
+    background-image: url(asset/Dessin/Dessins.jpg/Édition/AhoExcel1.jpg)
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.dessins2{
+    background-image: url(asset/Dessin/Dessins.jpg/Édition/AhoExcel2.jpg)
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.dessins3{
+    background-image: url(asset/Dessin/Dessins.jpg/Édition/Base.jpg)
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.dessins4{
+    background-image: url(asset/Dessin/Dessins.jpg/Édition/Chroma&Moi.jpg)
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 
